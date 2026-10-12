@@ -1,0 +1,23 @@
+{
+  "name": "india-electoral-roll-downloader",
+  "version": "1.2.0",
+  "private": true,
+  "license": "MIT",
+  "description": "Download Indian electoral rolls through the national ECI portal or UP archive, and search PDFs locally.",
+  "type": "commonjs",
+  "scripts": {
+    "install-browsers": "playwright install chromium",
+    "start": "node download_india.js",
+    "download:india": "node download_india.js",
+    "download:up": "node download_rolls.js",
+    "verify:india": "node scripts/verify-india.js",
+    "download": "node fetch_direct.js",
+    "test": "node --test tests/downloader.test.js tests/india.test.js",
+    "release:check": "node scripts/check-release.js",
+    "release:prepare": "node scripts/prepare-release.js"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "playwright": "^1.47.0"
+  }
+}
