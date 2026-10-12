@@ -1,4 +1,8 @@
-# India electoral-roll downloader
+# Electoral Roll Name Finder
+
+Created and maintained by **[Devashish Saxena](https://github.com/devashishsaxen)**.
+
+[GitHub repository](https://github.com/devashishsaxen/electoral-roll-name-finder)
 
 Download and search Indian electoral-roll PDFs locally. Version **1.2.0** adds national state/UT selection while preserving the automated UP archive workflows.
 
